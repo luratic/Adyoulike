@@ -1,5 +1,7 @@
 versions:
+  - sha: 06d951bc94e2f8a411f8caa055850cdeb8611938
+  - changeNotes: add help about how to populate the script url
+  # Older versions
   - sha: ee2149c5ad77eb62740cd3581495fae8b1c62cdd
   - changeNotes: fix template name
-  # Older versions
   - sha: 947090bd3e6b232a38bf1b3b9ea4381117e4fb25
