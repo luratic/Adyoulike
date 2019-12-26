@@ -9,7 +9,7 @@ Google may provide), as modified from time to time.
 ___INFO___
 
 {
-  "displayName": "PX_ADYOULIKE",
+  "displayName": "Adyoulike",
   "description": "The AI-Powered Native Advertising Platform.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
@@ -41,6 +41,19 @@ ___TEMPLATE_PARAMETERS___
     "type": "TEXT"
   }
 ]
+
+
+___SANDBOXED_JS_FOR_WEB_TEMPLATE___
+
+// Introduzca aquí su código de plantilla.
+var log = require('logToConsole');
+const injectScript = require('injectScript');
+
+log('data =', data);
+
+const trackingUrl = data.sourceUrl; 
+
+injectScript(trackingUrl, data.gtmOnSuccess,data.gtmOnFailure);
 
 
 ___WEB_PERMISSIONS___
@@ -93,19 +106,13 @@ ___WEB_PERMISSIONS___
 ]
 
 
-___SANDBOXED_JS_FOR_WEB_TEMPLATE___
+___TESTS___
 
-// Introduzca aquí su código de plantilla.
-var log = require('logToConsole');
-const injectScript = require('injectScript');
-
-log('data =', data);
-
-const trackingUrl = data.sourceUrl; 
-
-injectScript(trackingUrl, data.gtmOnSuccess,data.gtmOnFailure);
+scenarios: []
 
 
 ___NOTES___
 
 Plantilla Adyoulike de IM creada con amor por (Alfonso, Txema, Brais) v1
+
+
