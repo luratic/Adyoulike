@@ -11,6 +11,7 @@ ___INFO___
 {
   "displayName": "Adyoulike",
   "description": "The AI-Powered Native Advertising Platform.",
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -35,10 +36,11 @@ ___TEMPLATE_PARAMETERS___
         "type": "NON_EMPTY"
       }
     ],
-    "displayName": "URL completa del script",
+    "displayName": "Script URL",
     "simpleValueType": true,
     "name": "sourceUrl",
-    "type": "TEXT"
+    "type": "TEXT",
+    "help": "Insert the url provided by Adyoulike"
   }
 ]
 
