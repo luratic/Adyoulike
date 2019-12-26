@@ -1,2 +1,5 @@
 versions:
- - sha: 947090bd3e6b232a38bf1b3b9ea4381117e4fb25
+  - sha: ee2149c5ad77eb62740cd3581495fae8b1c62cdd
+  - changeNotes: fix template name
+  # Older versions
+  - sha: 947090bd3e6b232a38bf1b3b9ea4381117e4fb25
