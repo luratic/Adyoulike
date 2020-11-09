@@ -1,3 +1,5 @@
+homepage: "https://www.luratic.com"
+documentation: "https://www.luratic.com/posts/templates/tags/adyoulike/"
 versions:
   - sha: 06d951bc94e2f8a411f8caa055850cdeb8611938
   - changeNotes: add help about how to populate the script url
